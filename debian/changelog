@@ -1,0 +1,23 @@
+gntp-send (0.3.4-1) unstable; urgency=medium
+
+  * Initial upload to Debian (Closes: #829331)
+  * debian/changelog
+    - Removed past release changelog entries which are originally
+      maintained by Yasuhiro Matsumoto who is upstream author of
+      gntp-send. Those entries are just maintained to provide
+      packages on Launchpad PPA.
+      ref. https://launchpad.net/~mattn/+archive/ubuntu/gntp-send
+  * debian/watch
+    - Supported to watch upstream.
+  * debian/upstream/signing-key.asc
+    - Supported cryptographic signature.
+  * debian/upstream/metadata
+    - Added metadata about gntp-send package
+  * debian/rules
+    - Enabled hardening compile flags.
+    - Supported multiarch.
+  * debian/control
+    - Removed needless dependency to autotools-dev because debhelper
+      9.20160114 requires it.
+
+ -- Kentaro Hayashi <hayashi@clear-code.com>  Sun, 17 Jul 2016 16:25:53 +0900

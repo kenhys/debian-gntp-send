@@ -1,3 +1,12 @@
+gntp-send (0.3.4-2) UNRELEASED; urgency=medium
+
+  * debian/control
+    - Bump debhelper version to 11.
+  * debian/compat
+    - Bump compatibility level to 11.
+
+ -- Kentaro Hayashi <hayashi@clear-code.com>  Thu, 22 Feb 2018 00:48:58 +0900
+
 gntp-send (0.3.4-1) unstable; urgency=medium
 
   * Initial upload to Debian (Closes: #829331)

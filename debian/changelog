@@ -1,4 +1,4 @@
-gntp-send (0.3.4-2) UNRELEASED; urgency=medium
+gntp-send (0.3.4-2) unstable; urgency=medium
 
   * debian/control
     - Bump debhelper version to 11.
